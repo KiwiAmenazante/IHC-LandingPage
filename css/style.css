@@ -1,3 +1,4 @@
+/* header */
 header {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
@@ -7,7 +8,7 @@ header {
 }
 .toolbar-logo {
     float: left;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-right: 160px;
     margin-top: 10px;
     width: 100px;
@@ -36,3 +37,37 @@ header {
     padding: 10px 20px;
     font-weight: 400;
 }
+
+/* body */
+/* inicio */
+
+.container-inicio{
+ display: flex;
+ height: 400px;
+ width: 100%;
+ padding-top: 30px;
+}
+
+.inicio-izquierda{
+    flex: 1;
+    width: 50%;
+    background-color: #DFE1DE;
+}
+
+.imagen-container-izquierda{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 240px;
+}
+
+.inicio-derecha{
+    flex: 1;
+    width: 50%;
+    background-color: #A60A33;
+}
+
+
+
