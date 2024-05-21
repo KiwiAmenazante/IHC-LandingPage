@@ -11,13 +11,13 @@ header {
     margin-left: 80px;
     margin-right: 160px;
     margin-top: 10px;
-    width: 100px;
+    width: 60px;
 }
 .topnav a {
     float:left;
     color: #262626;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-right: 75px;
     text-decoration: none;
     font-size: 16px;
@@ -29,7 +29,7 @@ header {
     color: white;
     text-align: center;
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 14px;
     text-decoration: none;
     font-size: 16px;
     display: block;
@@ -38,14 +38,38 @@ header {
     font-weight: 400;
 }
 
+
 /* body */
+/* configuacion de las fuenteezzzzzzzz xd */
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #262626;
+    margin: 0 0 15px 0;
+}
+p2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: #606060;
+   
+}	
+
+.centered-content {
+    margin-left: 130px;
+    margin-top: 20px;
+}	
+
+
 /* inicio */
 
 .container-inicio{
  display: flex;
- height: 400px;
+ height: 510px;
  width: 100%;
- padding-top: 30px;
+ padding-top: 10px;
 }
 
 .inicio-izquierda{
@@ -60,6 +84,7 @@ header {
     justify-content: center;
     align-items: flex-start;
     margin-top: 20px;
+    margin-bottom: 30px;
     width: 240px;
 }
 
@@ -69,5 +94,16 @@ header {
     background-color: #A60A33;
 }
 
+.imagen-carrusel img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    max-width: 450px;
+    height: 450px;
+    margin-top: 25px;
+}
 
 
+
+/*responsive*/

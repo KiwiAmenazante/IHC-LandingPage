@@ -6,6 +6,11 @@
     <title>LibreLocus</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <header>
     <div class="topnav">
@@ -22,8 +27,47 @@
     <div class="container-inicio">
     <div class="inicio-izquierda">
         <img class="imagen-container-izquierda" src="img/Imagen.jpeg" alt="logo">
+        <div class="centered-content">
+            <h1>Descubre nuevos</h1>
+            <h1>Mundos</h1>
+            <h1>Literarios</h1>
+        </div>
+        <div class="centered-content">
+            <p2>Hacer mas facil el acceso a la lectura</p2>
+        </div>
+        <div class="centered-content">
+            <button class="nav-button nav-button-variant">Ver mas</button>
+        </div>
     </div>
-    <div class="inicio-derecha"></div>
+    <div class="inicio-derecha">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active imagen-carrusel">
+                    <img src="img/carrusel1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item imagen-carrusel">
+                    <img src="img/carrusel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item imagen-carrusel">
+                    <img src="img/carrusel3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+
+    </div>
     </div>
     
 </body>
