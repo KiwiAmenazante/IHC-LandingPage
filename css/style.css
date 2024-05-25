@@ -9,6 +9,9 @@
 .topnav .icon {
     display: none;
 }
+ul li {
+    margin: 50px 0; /* Ajusta este valor según tus necesidades */
+}
 
 /* header */
 header {
@@ -53,11 +56,12 @@ header {
     padding: 10px 20px;
     font-weight: 400;
 }
-
-
+.nav-button:hover {
+    background-color: white; /* Color de fondo al pasar el ratón */
+    color: #A60A33;            /* Color del texto al pasar el ratón */
+}
 /* body */
 /* configuacion de las fuenteezzzzzzzz xd */
-
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -65,13 +69,22 @@ h1 {
     color: #262626;
     margin: 0 0 15px 0;
 }
-p2 {
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #262626;
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+.p2 {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 100;
     color: #606060;
    
 }	
+
 
 .centered-content {
     margin-left: 130px;
@@ -120,12 +133,50 @@ p2 {
     margin-top: 25px;
 }
 
-/*responsive*/
+/* pantalla servicios*/
+.servicios-logo {
+    margin-left: 140px;
+    width: 60px;
+    position: absolute;
+}
 
+.container-servicios{
+    display: block;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+.text-container {
+    margin-top: 130px;
+    width: 100%;
+    text-align: center;
+}
+.descripcion-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.servicios-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.servicios-imagen {
+    width: 30%;
+    margin-right: 80px;
+}
+
+/*responsive*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
-      
       display: block;
     }
   }
@@ -146,5 +197,15 @@ p2 {
 @media screen and (max-width: 600px) {
     .toolbar-logo {
         display: none;
+    }
+    .container-inicio{
+        display: block;
+        margin-left: 25px;
+    }
+    .inicio-izquierda{
+        width: 90%;
+    }
+    .inicio-derecha{
+        width: 90%;
     }
 }
