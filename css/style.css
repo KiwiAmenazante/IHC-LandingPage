@@ -9,8 +9,12 @@
 .topnav .icon {
     display: none;
 }
+ul{
+ list-style-image: url("img/check.png");
+}
 ul li {
     margin: 50px 0; /* Ajusta este valor según tus necesidades */
+    padding: 0;
 }
 
 /* header */
@@ -77,6 +81,14 @@ h2 {
     margin: 0 0 15px 0;
     text-align: center;
 }
+.p1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+    margin: 0 0 15px 0;
+}
+
 .p2 {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -173,6 +185,73 @@ h2 {
     margin-right: 80px;
 }
 
+.servicios-decoracion{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Esto es para centrar la imagen verticalmente */
+}
+
+/* About us */
+
+.container-about{
+    display: block;
+    height: 1120px;
+    width: 100%;
+    background-color: #F8F9FA;
+    align-items: center;
+}
+.text-about{
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+.descripcion-about{
+    display: block;
+    text-align: center;
+}
+
+.franja-about{
+    width: 90%;
+    height: 60px;
+    background-color: #A60A33;
+    margin: 50px auto;
+}
+.contenedor-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagen-about {
+    width: 70%;
+}
+
+/* platadormas */
+
+.plataformas-container{
+    display: block;
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.imagen-plataformas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Esto añadirá espacio entre las imágenes */
+}
+.imagen-plataformas img{
+    width: 20%;
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+
+}	
+
+
 /*responsive*/
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
@@ -201,11 +280,58 @@ h2 {
     .container-inicio{
         display: block;
         margin-left: 25px;
+
     }
     .inicio-izquierda{
         width: 90%;
+        height: 500px;
+        margin-bottom: 25px;
     }
     .inicio-derecha{
         width: 90%;
+        height: 500px;
     }
+    .servicios-content{
+        flex-direction: column;
+    }
+    .imagen-container-izquierda{
+        width: 180px;
+        padding-top: 40px;
+    }
+    .imagen-plataformas{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .container-servicios {
+        position: relative;
+        margin-top: 600px;
+        height: 1200px;
+    }
+    .text-container {
+        margin-top: 50px; /* Ajusta este valor según tus necesidades */
+    }
+
+    .descripcion-container {
+        margin-top: 50px; /* Ajusta este valor según tus necesidades */
+    }
+
+    .servicios-content {
+        margin-top: 50px; /* Ajusta este valor según tus necesidades */
+    }
+    .servicios-logo{
+        width: 60px; /* Ajusta este valor según tus necesidades */
+        display: block;
+        margin-left: 15px;
+        align-items: center;
+    }
+    .servicios-imagen{
+        width: 50%;
+        
+    }
+    .container-about{
+        height: 920px;
+    }
+
 }
