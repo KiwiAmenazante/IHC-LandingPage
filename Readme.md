@@ -1,4 +1,19 @@
-# Landing Page de Búsqueda de Librerías Cercanas
+# Curso IHC 
+
+## grupo 5
+
+## Profesor: 
+Juan Carlos Morales Arevalo
+
+## Integrantes: 
+- Alessandra Viviana Chávez Méndez
+- Alex Sandro Huillca Yalico
+- Eduardo Eusebio Sihuar Ccotarma Ttito
+- Manuel Augusto Huamani Hastahuaman
+- Valentino Sebastian Cervantes Erequita
+
+# Tema: Landing Page de Búsqueda de Librerías Cercanas
+# Proyecto: LibreLocus
 
 ## Descripción
 Este proyecto es el desarrollo de una landing page para la aplicación móvil de búsqueda de librerías cercanas. La landing page tiene como objetivo presentar las características de la aplicación, atraer a nuevos usuarios y proporcionar enlaces de descarga para diferentes plataformas móviles.
