@@ -1,4 +1,5 @@
-! [logo UPC ] (.../img upc_logo_200x200_jao73r )
+![logo_upc](img/upc_logo_200x200_jao73r.png)
+
 # Curso IHC 
 
 ## grupo 5
