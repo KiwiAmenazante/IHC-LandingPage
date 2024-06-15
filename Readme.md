@@ -19,9 +19,6 @@ Juan Carlos Morales Arevalo
 # Proyecto: LibreLocus
 Este proyecto es el desarrollo de una landing page para la aplicación móvil de búsqueda de librerías cercanas. La landing page tiene como objetivo presentar las características de la aplicación, atraer a nuevos usuarios y proporcionar enlaces de descarga para diferentes plataformas móviles.
 
-## Tabla de Contenidos
-- Características Principales....
-
 ## Descripción
 Este proyecto consiste en el desarrollo de una landing page para la aplicación móvil de búsqueda de librerías cercanas, llamada **LibreLocus**. La landing page está diseñada para ser el punto de entrada principal para los usuarios potenciales y actuales, proporcionando una visión completa de las características y beneficios de la aplicación. Su objetivo principal es atraer a nuevos usuarios, incrementar la base de usuarios activos y facilitar el acceso a las descargas de la aplicación en diferentes plataformas móviles.
 
