@@ -1,4 +1,4 @@
-![logo_upc](img/upc_logo_200x200_jao73r.png)
+![logo_upc](public/assets/images/upc_logo.png)
 
 # Curso IHC y Tecnologías Móviles
 
