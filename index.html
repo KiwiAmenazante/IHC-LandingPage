@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LibreLocus</title>
     <link rel="stylesheet" href="public/assets/styles/style.css">
+    <link rel="stylesheet" href="public/assets/styles/swiper-bundle.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
 </head>
 <header>
     <div class="topnav" id="myTopnav">
@@ -118,43 +120,185 @@
     </div>
     <div class="plataformas-container">
         <h2>plataformas</h2>
+        <div class="contenedor-imagen">
         <div class="imagen-plataformas">
             <img src="public/assets/images/Imagen.jpeg" alt="img">
-            <img src="public/assets/images/google-logo.png" alt="logo">
-            <img src="public/assets/images/appstore-logo.png" alt="appstore-logo">
-            <img src="public/assets/images/qr.jpg" alt="">
         </div>
+        <div class="imagen-plataformas">
+            <img src="public/assets/images/google-logo.png" alt="logo">
+        </div>
+        <div class="imagen-plataformas">
+            <img src="public/assets/images/appstore-logo.png" alt="appstore-logo">
+        </div>
+        <div class="imagen-plataformas">
+            <img src="public/assets/images/qrll.png" alt=""> 
+        </div>
+    </div>
     </div> 
 
     <div class="container-funciones">
         <h2>Funciones</h2>
         <div class="cards-container">
-            <div class="card">
-                <img src="public/assets/images/funcion1.jpeg" alt="Descripción de la imagen">
-                <p class="subtitulo">Poder ubicar Establecimientos  cercanos por medio de Maps</p>
+            <div class="card-funciones">
+                <img src="public/assets/images/funcion1.jpeg" alt="La imagen representa el trabajo que se ahorran personas al buscar una libreria de  manera manual">
+                <p class="subtitulo">Poder ubicar Establecimientos cercanos por medio de Maps</p>
                 <p class="p2">Solo se consideran establecimientos registrados a los que se podra acceder a su informacion.</p>
-                <p class="texto-expandible p2">Texto expandibleeeeeeeeeeeeeee</p>
+                <p class="texto-expandible p2">Nuesta app te permite buscar establecimientos cercanos a puntos especificos 
+                                que tu escojas en un mapa interactivo para tu comodidad. </p>
                 <p class="boton-expandir">Leer mas</p>
             </div>
-            <div class="card">
-                <img src="public/assets/images/funcion1.jpeg" alt="Descripción de la imagen">
-                <p class="subtitulo">Poder ubicar Establecimientos  cercanos por medio de Maps</p>
-                <p class="p2">Solo se consideran establecimientos registrados a los que se podra acceder a su informacion.</p>
-                <p class="texto-expandible p2">Texto expandibleeeeeeeeeeeeeee</p>
+            <div class="card-funciones">
+                <img src="public/assets/images/funcion2.jpg" alt="La imagen representa la busqueda que se evitan las personas que usan nuestra app ">
+                <p class="subtitulo">Busqueda por un articulo o servicio en especifico en las librerias cercanas</p>
+                <p class="p2">se mostrara la informacion publicada por el establecieminto .</p>
+                <p class="texto-expandible p2">En nuestra app podras buscar por articulos las librerias que te interesan para una busqueda mas 
+                                simple segun tus intereses </p>
                 <p class="boton-expandir">Leer mas</p>
             </div>
-            <div class="card">
-                <img src="public/assets/images/funcion1.jpeg" alt="Descripción de la imagen">
-                <p class="subtitulo">Poder ubicar Establecimientos  cercanos por medio de Maps</p>
-                <p class="p2">Solo se consideran establecimientos registrados a los que se podra acceder a su informacion.</p>
-                <p class="texto-expandible p2">Texto expandibleeeeeeeeeeeeeee</p>
+            <div class="card-funciones">
+                <img src="public/assets/images/funcion3.jpg" alt="La imagen representa las ">
+                <p class="subtitulo">Gestion de contenido de alta eficiencia para librerias </p>
+                <p class="p2">Se publicara informacion como los articulos disponibles, horarios, ubicacion y demas.</p>
+                <p class="texto-expandible p2"> En la app podras encontrar el contenido relevante de las 
+                                        librerias para una eficas busqueda de contenidos y nesecidades que las librerias puedas solventar</p>
                 <p class="boton-expandir">Leer mas</p>
             </div>
         </div>
         <div class="cards-container">
             <button class="nav-button">Ver mas</button>
         </div>
+    </div>
 
+    <div class="preguntas-container">
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile1.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile2.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile3.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile4.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile5.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile6.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile7.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile8.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="image-content">
+                            <span class="overlay"></span>
+                            <div class="card-image">
+                                <!--<img src="images/profile9.jpg" alt="" class="card-img">-->
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h2 class="name">David Dell</h2>
+                            <p class="description">The lorem text the section that contains header with having open functionality. Lorem dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="nav-button">View More</button>
+                        </div>
+                    </div>
+                
+               </div>
+            </div>
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="public/assets/scripts/swiper-bundle.min.js"></script>
     <script src="public/assets/scripts/main.js"></script>
 </body>
 </html>
