@@ -318,7 +318,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #EFEFEF;
+    background-color: white;
 }
 
 .slide-container{
@@ -333,7 +333,7 @@ h2 {
   }
   .card{
     border-radius: 25px;
-    background-color: #FFF;
+    background-color: #F8F9FA;
   }
   .image-content,
   .card-content{
@@ -353,7 +353,7 @@ h2 {
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: #4070F4;
+    background-color: #A60A33;
     border-radius: 25px 25px 0 25px;
   }
   .overlay::before,
@@ -364,18 +364,18 @@ h2 {
     bottom: -40px;
     height: 40px;
     width: 40px;
-    background-color: #4070F4;
+    background-color: #A60A33;
   }
   .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: #FFF;
+    background-color: #F8F9FA;
   }
   .card-image{
     position: relative;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    background: #FFF;
+    background: #F8F9FA;
     padding: 3px;
   }
   .card-image .card-img{
@@ -383,7 +383,7 @@ h2 {
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 4px solid #4070F4;
+    border: 4px solid #A60A33;
   }
   .name{
     font-size: 18px;
@@ -395,30 +395,132 @@ h2 {
     color: #707070;
     text-align: center;
   }
-  .swiper-navBtn{
-    color: #6E93f7;
-    transition: color 0.3s ease;
-  }
-  .swiper-navBtn:hover{
-    color: #4070F4;
-  }
-  .swiper-navBtn::before,
-  .swiper-navBtn::after{
-    font-size: 35px;
-  }
-  .swiper-button-next{
-    right: 0;
-  }
-  .swiper-button-prev{
-    left: 0;
-  }
-  .swiper-pagination-bullet{
-    background-color: #6E93f7;
-    opacity: 1;
-  }
-  .swiper-pagination-bullet-active{
-    background-color: #4070F4;
-  }
+
+
+/*formulario*/
+
+.container-contacto{
+    display: flex;
+    height: 550px;
+    width: 100%;
+    background-color: #F8F9FA;
+}
+.form-group {
+    
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+   
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Asegura que padding no aumente el tamaño del input */
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    width: 160%; /* Ajusta esto según sea necesario, pero ten en cuenta que ya está al 100% */
+
+}
+
+.form-group textarea {
+    resize: vertical; 
+    width: 200%;
+}
+.container-contacto img {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 7%;
+}
+.text-contacto{
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+
+/*footer*/
+footer {
+    background: white;
+    color: black;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.banner-info{
+    width: 75%;
+    height: 30%;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.banner-info h2{
+    color: #F2CB05;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.banner-info p{
+    color: #F2CB05;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, .footer-section ul, .footer-section a {
+    color: #272D2C;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 1px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #272D2C;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #F2CB05;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #444;
+}
+
 
 /*responsive*/
 @media screen and (max-width: 600px) {
@@ -451,6 +553,14 @@ h2 {
         margin-bottom: 10px;
         margin:auto;
 
+    }
+    .form-group input[type="email"] {
+        width: 100%; /* Ajusta esto según sea necesario, pero ten en cuenta que ya está al 100% */
+    
+    }
+    .form-group textarea {
+        resize: vertical; 
+        width: 100%;
     }
   }
 @media screen and (max-width: 600px) {
@@ -525,7 +635,7 @@ h2 {
     .plataformas-container{
         height: 200px;
     }
-
-    
-
+    .container-funciones{
+        height: 1300px;
+    }
 }

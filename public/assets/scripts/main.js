@@ -46,3 +46,13 @@ var swiper = new Swiper(".slide-content", {
       },
   },
 });
+
+document.getElementById('submitBtn').addEventListener('click', function(event) {
+  event.preventDefault();
+  Swal.fire({
+    title: '¡Éxito!',
+    text: 'Formulario enviado con éxito.',
+    icon: 'success',
+    confirmButtonText: 'Aceptar'
+  });
+});
