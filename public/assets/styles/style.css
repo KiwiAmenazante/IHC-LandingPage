@@ -156,14 +156,15 @@ h2 {
 
 /* pantalla servicios*/
 .servicios-logo {
-    margin-left: 140px;
     width: 60px;
-    position: absolute;
+    margin-top: 20px;
+   
 }
 
 .container-servicios{
-    display: block;
-    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    height: 1050px;
     width: 100%;
     background-color: white;
     align-items: center;
@@ -171,7 +172,7 @@ h2 {
 .text-container {
     margin-top: 130px;
     width: 100%;
-    text-align: center;
+    
 }
 .descripcion-container {
     display: block;
@@ -191,7 +192,7 @@ h2 {
 
 .servicios-imagen {
     width: 30%;
-    margin-right: 80px;
+    
 }
 
 .servicios-decoracion{
@@ -603,7 +604,7 @@ footer {
     .container-servicios {
         position: relative;
         margin-top: 600px;
-        height: 1200px;
+        height: 1250px;
     }
     .text-container {
         margin-top: 50px; /* Ajusta este valor según tus necesidades */
@@ -615,10 +616,6 @@ footer {
 
     .servicios-content {
         margin-top: 50px; /* Ajusta este valor según tus necesidades */
-    }
-    .servicios-logo{
-       
-        visibility: hidden;
     }
     .servicios-imagen{
         width: 50%;
