@@ -157,7 +157,7 @@ h2 {
 /* pantalla servicios*/
 .servicios-logo {
     width: 60px;
-    margin-top: 20px;
+    margin-top: 40px;
    
 }
 
@@ -170,7 +170,7 @@ h2 {
     align-items: center;
 }
 .text-container {
-    margin-top: 130px;
+    margin-top: 60px;
     width: 100%;
     
 }
@@ -184,15 +184,13 @@ h2 {
 .servicios-content{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+   
     align-items: center;
     flex-direction: row;
 
 }
-
 .servicios-imagen {
     width: 30%;
-    
 }
 
 .servicios-decoracion{
