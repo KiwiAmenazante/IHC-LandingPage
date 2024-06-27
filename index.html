@@ -9,7 +9,6 @@ function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-NL97V6G5EJ');
 </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LibreLocus</title>
@@ -33,13 +32,13 @@ gtag('config', 'G-NL97V6G5EJ');
         <a href="#inicio">Inicio</a>
         <a href="#servicios">Servicios</a>
         <a href="#about">About Us</a>
-        <a href="#about">Contactenos</a>
+        <a href="#contacto">Contactenos</a>
         <button class="nav-button">Iniciar sesion</button>
         <button class="nav-button">Registrarse</button>
       </div>  
 </header>
 <body>
-    <div class="container-inicio">
+    <div class="container-inicio" id="inicio">
     <div class="inicio-izquierda">
         <img class="imagen-container-izquierda" src="public/assets/images/Imagen.jpeg" alt="logo">
         <div class="centered-content">
@@ -84,7 +83,8 @@ gtag('config', 'G-NL97V6G5EJ');
 
     </div>
     </div>
-    <div class="container-servicios">
+
+    <div class="container-servicios" id="servicios">
      <img src="public/assets/images/logo.jpeg" class="servicios-logo" alt="logo">
      <div class="text-container">
         <h2>Nuestros Servicios</h2>
@@ -109,7 +109,7 @@ gtag('config', 'G-NL97V6G5EJ');
     </div>
     </div>
     
-    <div class="container-about">
+    <div class="container-about" id="about" >
         
     <div class="text-about">
         <h2>About Us : LibreLocus</h2>
@@ -128,7 +128,8 @@ gtag('config', 'G-NL97V6G5EJ');
     </div>
 
     </div>
-    <div class="plataformas-container">
+
+    <div class="plataformas-container" id="plataformas">
         <h2>plataformas</h2>
         <div class="contenedor-imagen">
         <div class="imagen-plataformas">
@@ -146,7 +147,7 @@ gtag('config', 'G-NL97V6G5EJ');
     </div>
     </div> 
 
-    <div class="container-funciones">
+    <div class="container-funciones" id="funciones">
         <h2>Funciones</h2>
         <div class="cards-container">
             <div class="card-funciones">
@@ -179,9 +180,10 @@ gtag('config', 'G-NL97V6G5EJ');
         </div>
     </div>
     
-    <div class="text-about">
+    <div class="text-about" id="preguntas"> 
         <h2>Preguntas Frecuentes</h2>
     </div>
+
     <div class="preguntas-container">
         <div class="slide-container swiper">
             <div class="slide-content">
@@ -290,7 +292,8 @@ gtag('config', 'G-NL97V6G5EJ');
             <div class="swiper-pagination"></div>
         </div>
     </div>
-    <div class="container-contacto">
+
+    <div class="container-contacto" id="contacto">
       <img src="public/assets/images/img-form.jpeg" alt="">
         <form>
             <div class="text-contacto">
@@ -314,6 +317,7 @@ gtag('config', 'G-NL97V6G5EJ');
 
     <script src="public/assets/scripts/swiper-bundle.min.js"></script>
     <script src="public/assets/scripts/main.js"></script>
+
 </body>
    <footer>
     <div class="footer-content">
