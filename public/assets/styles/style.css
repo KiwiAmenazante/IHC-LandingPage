@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 /*styles*/
 
+html {
+    scroll-behavior: smooth;
+  }
 .topnav a:hover {
     background-color: #A60A33;
     color: white;
@@ -14,7 +17,7 @@ ul{
  list-style-image: url("img/check.png");
 }
 ul li {
-    margin: 50px 0; /* Ajusta este valor según tus necesidades */
+    margin: 50px 0; 
     padding: 0;
 }
 
@@ -62,11 +65,11 @@ header {
     font-weight: 400;
 }
 .nav-button:hover {
-    background-color: white; /* Color de fondo al pasar el ratón */
-    color: #A60A33;            /* Color del texto al pasar el ratón */
+    background-color: white; 
+    color: #A60A33;           
 }
 /* body */
-/* configuacion de las fuenteezzzzzzzz xd */
+/* configuacion de las fuenteezz */
 h1 {
     font-family: 'Inter', sans-serif;
     font-size: 40px;
@@ -197,7 +200,7 @@ h2 {
     position: absolute;
     right: 0;
     top: 50%;
-    transform: translateY(-50%); /* Esto es para centrar la imagen verticalmente */
+    transform: translateY(-50%); /* Esto es para centrar la imagen verticalmente por si acaso */
 }
 
 /* About us */
@@ -304,7 +307,7 @@ h2 {
 .texto-expandible {
     height: 0;
     overflow: hidden;
-    transition: height 0.3s ease; /* Esto añadirá una animación a la expansión */
+    transition: height 0.3s ease; /* Esto añadira una animación a la expansión */
 }
 
 /* preguntas */
@@ -420,11 +423,11 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box; /* Asegura que padding no aumente el tamaño del input */
+    box-sizing: border-box; 
 }
 .form-group input[type="text"],
 .form-group input[type="email"] {
-    width: 100%; /* Ajusta esto según sea necesario, pero ten en cuenta que ya está al 100% */
+    width: 100%; 
 
 }
 
@@ -554,7 +557,7 @@ footer {
 
     }
     .form-group input[type="email"] {
-        width: 100%; /* Ajusta esto según sea necesario, pero ten en cuenta que ya está al 100% */
+        width: 100%; 
     
     }
     .form-group textarea {
@@ -605,15 +608,15 @@ footer {
         height: 1250px;
     }
     .text-container {
-        margin-top: 50px; /* Ajusta este valor según tus necesidades */
+        margin-top: 50px; 
     }
 
     .descripcion-container {
-        margin-top: 50px; /* Ajusta este valor según tus necesidades */
+        margin-top: 50px;
     }
 
     .servicios-content {
-        margin-top: 50px; /* Ajusta este valor según tus necesidades */
+        margin-top: 50px; 
     }
     .servicios-imagen{
         width: 50%;

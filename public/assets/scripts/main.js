@@ -58,9 +58,18 @@ document.getElementById('submitBtn').addEventListener('click', function(event) {
 });
 
 function redirectTologinPage() {
-  window.location.href ='HTML/login.html'; // Redirige a otra_pagina.html
+  window.location.href ='HTML/login.html'; 
 }
 
 function redirectToRegisterinPage() {
-  window.location.href ='HTML/Register.html'; // Redirige a otra_pagina.html
+  window.location.href ='HTML/Register.html';
+}
+
+
+/* scrolls de botones*/
+
+function scrollToElement(elementId) {
+  document.getElementById(elementId).scrollIntoView({
+    behavior: 'smooth'
+  });
 }
