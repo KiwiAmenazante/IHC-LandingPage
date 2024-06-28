@@ -156,22 +156,23 @@ h2 {
 
 /* pantalla servicios*/
 .servicios-logo {
-    margin-left: 140px;
     width: 60px;
-    position: absolute;
+    margin-top: 40px;
+   
 }
 
 .container-servicios{
-    display: block;
-    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    height: 1050px;
     width: 100%;
     background-color: white;
     align-items: center;
 }
 .text-container {
-    margin-top: 130px;
+    margin-top: 60px;
     width: 100%;
-    text-align: center;
+    
 }
 .descripcion-container {
     display: block;
@@ -183,15 +184,13 @@ h2 {
 .servicios-content{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+   
     align-items: center;
     flex-direction: row;
 
 }
-
 .servicios-imagen {
     width: 30%;
-    margin-right: 80px;
 }
 
 .servicios-decoracion{
@@ -425,20 +424,20 @@ h2 {
 }
 .form-group input[type="text"],
 .form-group input[type="email"] {
-    width: 160%; /* Ajusta esto según sea necesario, pero ten en cuenta que ya está al 100% */
+    width: 100%; /* Ajusta esto según sea necesario, pero ten en cuenta que ya está al 100% */
 
 }
 
 .form-group textarea {
     resize: vertical; 
-    width: 200%;
+    width: 140%;
 }
 .container-contacto img {
     width: 40%;
     height: 80%;
     display: flex;
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 1%;
     margin-right: 7%;
 }
 .text-contacto{
@@ -603,7 +602,7 @@ footer {
     .container-servicios {
         position: relative;
         margin-top: 600px;
-        height: 1200px;
+        height: 1250px;
     }
     .text-container {
         margin-top: 50px; /* Ajusta este valor según tus necesidades */
@@ -616,12 +615,6 @@ footer {
     .servicios-content {
         margin-top: 50px; /* Ajusta este valor según tus necesidades */
     }
-    .servicios-logo{
-        width: 60px; /* Ajusta este valor según tus necesidades */
-        display: block;
-        margin-left: 15px;
-        align-items: center;
-    }
     .servicios-imagen{
         width: 50%;
         
@@ -629,13 +622,11 @@ footer {
     .container-about{
         height: 830px;
     }
-    .container-funciones{
-        height: 1300px;
-    }
     .plataformas-container{
         height: 200px;
     }
     .container-funciones{
-        height: 1300px;
+        height: 1400px;
     }
+    
 }
