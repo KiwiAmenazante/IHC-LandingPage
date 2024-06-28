@@ -1,0 +1,57 @@
+body {
+    background-color: white; /* Fondo blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.register-container {
+    background-color: #FFF; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.register-title {
+    color: #A60A33; /* Color principal */
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    color: #A60A33; /* Color principal */
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #A60A33; /* Color principal */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.register-button {
+    background-color: #A60A33; /* Color principal */
+    color: white; /* Color blanco */
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.register-button:hover {
+    background-color: #F2CB05; /* Color secundario */
+}

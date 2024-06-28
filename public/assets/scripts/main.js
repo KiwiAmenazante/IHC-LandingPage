@@ -56,3 +56,11 @@ document.getElementById('submitBtn').addEventListener('click', function(event) {
     confirmButtonText: 'Aceptar'
   });
 });
+
+function redirectTologinPage() {
+  window.location.href ='HTML/login.html'; // Redirige a otra_pagina.html
+}
+
+function redirectToRegisterinPage() {
+  window.location.href ='HTML/Register.html'; // Redirige a otra_pagina.html
+}
